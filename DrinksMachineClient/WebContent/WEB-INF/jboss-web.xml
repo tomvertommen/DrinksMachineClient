@@ -1,0 +1,4 @@
+<jboss-web>
+	<context-root>DrinksMachine</context-root>
+	<security-domain>java:/jaas/DrinksMachine</security-domain>
+</jboss-web>

@@ -1,0 +1,90 @@
+#drinksMachine {
+	width: 700px;
+	background-color: lightgrey;
+}
+.modeBtn {
+	width: 120px;
+	margin-top: -14px;
+}
+.modeImg {
+	margin-top: 2px;
+	width: 20px;
+}
+.plusMinImg {
+	width: 16px;
+    border: 1px solid black;
+    margin: 1px;	
+}
+.qtyInp {
+    width: 50px;
+}
+.drinkTd {
+	font-weight: bold;
+	padding: 5px;
+}
+.plusMinTd {
+	padding: 5px;
+}
+#stockTbl {
+	border: 1px solid black;
+}
+#stockTbl>tbody>tr {
+	border: 1px solid black;
+}
+input[type=button].active {
+	font-weight: bold;
+	border: 3px solid black;
+	
+}
+input[type=button].inactive {
+}
+input[type=button].disabled {
+	opacity: 0.5;
+}
+img.disabled {
+	opacity: 0.5;
+}
+#powerImg {
+	width: 50px;
+}
+#modeTd {
+ 	padding: 10px;
+ 	vertical-align: top;
+}
+#powerTd {
+	padding: 10px;
+}
+#modePowerTbl {
+	width: 100%;
+}
+#powerLight {
+	width: 20px;
+    padding-bottom: 17px;
+    padding-right: 15px;
+}
+.clickable {
+	cursor: pointer;
+}
+#connectionTd {
+	padding: 10px;
+}
+#connectionImg {
+	cursor: pointer;
+	width: 50px;
+}
+#waterTd {
+	text-align: right;
+	padding: 10px;
+}
+#waterImg {
+	cursor: pointer;
+	width: 50px;
+}
+#waterLightImg {
+	width: 20px;
+	margin-bottom: 20px;
+}
+#connectionLightImg {
+	width: 20px;
+	margin-bottom: 15px;
+}

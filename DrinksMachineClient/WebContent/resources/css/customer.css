@@ -1,0 +1,165 @@
+#drinksMachine {
+	width: 700px;
+	background-color: lightgrey;
+}
+#statusImg {
+	width: 20px;
+}
+#statusTextTd {
+	text-align: right;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	width: 50%;
+}
+#statusImgTd {
+	text-align: left;
+	vertical-align: middle;
+	width: 50%;
+}
+#statusTbl {
+	width: 100%;
+}
+input[type=button].drinkBtn {
+	width: 120px;
+	margin: 20px 0;
+}
+input[type=button].enabled {
+	font-weight: bold;
+	border: 3px solid black;
+}
+input[type=button].disabled {
+	opacity: 0.5;
+}
+#topDrinksTbl {
+	width: 100%;
+}
+#bottomDrinksTbl {
+	width: 100%;
+}
+#topDrinksTbl > tbody > tr > td {
+	text-align: center;
+}
+#topLeftDrinkTd {
+ 	padding-left: 35px;
+}
+#topRightDrinkTd {
+	padding-right: 35px;
+}
+#leftDrinksTbl {
+	margin: 0 auto;
+}
+#rightDrinksTbl {
+	margin: 0 auto;
+}
+.bottomDrinksTd {
+	width: 33%;
+}
+#optionsTd {
+	width: 34%;
+}
+#cardTbl {
+	width: 100%;
+}
+#cardTd {
+	text-align: center;
+}
+#cardImg {
+	width: 50px;
+}
+#cardImg.enabled {
+	cursor: pointer;
+}
+#cardImg.disabled {
+	opacity: 0.5;
+}
+#cardLightImg {
+	width: 20px;
+	padding-bottom: 20px;
+}
+#optionsTbl {
+	margin: 0 auto;
+}
+#sizeTd {
+	
+}
+#strengthTd {
+	
+}
+#priceTd {
+	
+}
+#priceInp {
+	width: 56px;
+}
+#prepareTd {
+	text-align: center;
+}
+#prepareBtn {
+	margin-right: 43px;
+}
+#optionsTbl > tbody > tr > td {
+	padding: 5px;
+	font-weight: bold;
+}
+#REGULARSizeImg {
+	width: 20px;
+}
+#LARGESizeImg {
+	width: 25px;
+}
+#XXLSizeImg {
+	width: 30px;
+}
+#REGULARStrengthImg {
+	width: 10px;
+	padding: 0 3px;
+}
+#STRONGStrengthImg {
+	width: 20px;
+	padding: 0 3px;
+}
+#VERY_STRONGStrengthImg {
+	width: 30px;
+	padding: 0 3px;
+}
+.selectedSize {
+	border: 1px solid #bfbfbf;
+}
+.selectedStrength {
+	border: 1px solid #bfbfbf;
+}
+.unSelectedSize {
+	opacity: 0.2;
+	cursor: pointer;
+}
+.unSelectedStrength {
+	opacity: 0.2;
+	cursor: pointer;
+}
+#sizeTxtTd {
+	width: 50px;
+}
+#flavourTxtTd {
+	
+}
+#priceTxtTd {
+	
+}
+#optionsTopTr {
+	height: 30px;
+}
+.hidden {
+	visibility: hidden;
+}
+#cupImg {
+	width: 50px;
+}
+#cupTd {
+	text-align: center;
+	padding: 20px;
+}
+#cupLightImg {
+	width: 20px;
+    margin-bottom: 20px;
+}
